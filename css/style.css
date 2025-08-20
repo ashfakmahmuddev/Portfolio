@@ -436,13 +436,16 @@ circle.progress {
 #contact {
   padding: 150px 0;
 }
+.contactForm {
+  padding-top: 20px;
+}
 .contactForm form {
   display: flex;
   justify-content: center;
 }
 .contactFormCommon textarea {
   height: 160px;
-  caret-color: #959595; 
+  caret-color: #959595;
 }
 .selectBox select,
 .contactFormCommon textarea,
@@ -494,3 +497,65 @@ circle.progress {
   border: 2px solid #fd6f00;
 }
 /* contact part end  */
+
+/* footer part start  */
+#footer {
+  background-color: #1b1b1b;
+  padding: 40px 0 25px 0;
+}
+.footer {
+  text-align: center;
+}
+.footerMenu ul {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.footerMenu ul li {
+  padding: 0 30px;
+}
+.footerMenu ul li a {
+  color: #959595;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.footerMenu ul li a:hover {
+  color: #fd6f00;
+}
+.footerSocial {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0 !important;
+}
+.footerContact {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.footerContact span {
+  color: #959595;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+.footerLine{
+  height: 1px;
+  width: 525px;
+  background-color: #959595;
+  margin: 0 auto;
+}
+.footerCopyright{
+  padding-top: 15px;
+}
+.footerCopyright p{
+  color: #707070;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footerCopyright p span{
+  color: #ca5900;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* footer part end  */
