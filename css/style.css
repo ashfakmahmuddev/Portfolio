@@ -442,6 +442,7 @@ circle.progress {
 }
 .contactFormCommon textarea {
   height: 160px;
+  caret-color: #959595; 
 }
 .selectBox select,
 .contactFormCommon textarea,
@@ -464,6 +465,9 @@ circle.progress {
 .contactFormCommon input:not(:placeholder-shown) {
   color: #959595;
 }
+.contactFormCommon textarea:not(:placeholder-shown) {
+  color: #959595;
+}
 .contactFormCommon input:focus {
   color: #959595;
   font-size: 16px;
@@ -482,17 +486,11 @@ circle.progress {
   right: 16px;
   bottom: -60px;
   padding: 12px 40px;
-  transition: .4s;
+  transition: 0.4s;
 }
-.contactFormRight a:hover{
+.contactFormRight a:hover {
   color: #fff;
   background-color: #fd6f00;
   border: 2px solid #fd6f00;
 }
 /* contact part end  */
-
-/*
-
-
-Project Details...
-Send */
